@@ -1,20 +1,20 @@
 {
-  "name": "Timestamp Microserver",
+  "name": "Request Header Parser Microserver",
   "version": "1.0.0",
-  "description": "Timestamp Microservice",
-  "main": "timestamp.js",
+  "description": "Parser Microservice",
+  "main": "headerparser.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burcinguzel/fcc-timestamp-microserver"
+    "url": "git+https://github.com/burcinguzel/fcc-parser-timeserver"
   },
   "homepage": "https://github.com/burcinguzel",
-  "bugs": "https://github.com/burcinguzel/fcc-timestamp-microserver/issues",
+  "bugs": "https://github.com/burcinguzel/fcc-parser-timeserver/issues",
   "keywords": [
     "full stack",
     "Node"
   ],
   "scripts": {
-  "start": "node timestamp.js"
+  "start": "node headerparser.js"
   },
   "author": "Burcin Guzel",
   "license": "None",
@@ -22,7 +22,6 @@
     "dotenv": "^1.2.0",
     "express": "^4.12.4",
     "express-session": "^1.11.3",
-    "mongoose": "^4.1.0",
     "passport": "^0.3.0",
     "passport-github": "^1.0.0"
   }

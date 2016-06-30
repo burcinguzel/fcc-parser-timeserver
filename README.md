@@ -1,8 +1,8 @@
-# Timestamp Microserver
+# Request Header Parser Microserver
 
 ## Overview
 
-Timestamp.js is the first FreeCodeCamp API project.
+headerparser.js is the second FreeCodeCamp API project.
 ## Versions
 
 This is first version:
@@ -12,10 +12,10 @@ This is first version:
 
 ### Installation & Startup
 
-To install timestamp.js, simply enter the below in the terminal window:
+To install headerparser.js, simply enter the below in the terminal window:
 
 ```bash
-$ git clone https://github.com/burcinguzel/timestamp-microservice.git
+$ git clone https://github.com/burcinguzel/fcc-parser-timeserver.git
 ```
 
 To install the dependencies, enter the following in your terminal:
@@ -25,7 +25,7 @@ $ cd your-project
 $ npm install
 ```
 
-This will install the timestamp.js components into the `your-project` directory.
+This will install the headerparser.js components into the `your-project` directory.
 
 
 
@@ -42,7 +42,7 @@ APP_URL=http://localhost:8080/
 
 ### Starting the App
 
-To start the app, make sure you're in the project directory and type `node timestamp.js` into the terminal. This will start the Node server 
+To start the app, make sure you're in the project directory and type `node headerparser.js` into the terminal. This will start the Node server 
 
 You should the following messages within the terminal window:
 
@@ -56,4 +56,4 @@ Next, open your browser and enter `http://localhost:8080/`. Congrats, you're up 
 ## License
 
 No License
-# fcc-timestamp-microserver
+# fcc-headerparser-microserver
