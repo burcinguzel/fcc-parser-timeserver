@@ -16,6 +16,9 @@
   "scripts": {
   "start": "node headerparser.js"
   },
+    "engines" : { 
+    "npm" : "~3.5.3" 
+  },
   "author": "Burcin Guzel",
   "license": "None",
   "dependencies": {
